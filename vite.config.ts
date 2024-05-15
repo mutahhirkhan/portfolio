@@ -7,6 +7,10 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 // https://vitejs.dev/config/
 export default defineConfig({
   base: CONFIG.base || '/',
+  server: {
+    port: 3000,
+    open: true,
+  },
   plugins: [
     react(),
     createHtmlPlugin({

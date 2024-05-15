@@ -2,30 +2,38 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'mutahhirkhan', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/portfolio/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
+      // automatic: {
+      //   sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+      //   limit: 8, // How many projects to display.
+      //   exclude: {
+      //     forks: false, // Forked projects will not be displayed if set to true.
+      //     projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      //   },
+      // },
       manual: {
+        sortBy: 'updated',
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'mutahhirkhan/sg-templating',
+          'mutahhirkhan/thirdweb-x-ipfs',
+          'mutahhirkhan/airport-queue-simulation',
+          'mutahhirkhan/decare',
+          'mutahhirkhan/T200',
+          'mutahhirkhan/xord-challenges',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,107 +41,148 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Video Sales Letter',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'A web app to create persuasive compelling video marketing content to engage and convert viewers.',
+          imageUrl: 'https://i.ibb.co/px2x32C/1697731186728.jpg',
+          link: 'https://vsl.vercel.app/',
         },
         {
-          title: 'Project Name',
+          title: 'Nas Hacker News',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Digital news application for latest and old news, jobs, stories, etc.',
+          imageUrl: 'https://i.ibb.co/VV3WwRL/1697732365177.jpg',
+          link: 'https://nas-hackernews.netlify.app/',
+        },
+        {
+          title: 'QUEUEING SIMULATOR AIRPORT SECURITY BOARDING QUEUE',
+          description:
+            'Airport security boarding queue simulator! QueueVoyage offers a comprehensive simulation platform designed to monitor the efficiency and performance of the boarding queue at airport security checkpoints. ',
+          imageUrl: 'https://i.ibb.co/vPbwmzM/image.png',
+          link: 'https://simulator.saqlain1020.com/',
+        },
+        {
+          title: 'thirdwebxipfs.netlify.app',
+          description:
+            'IPFS_NFT-Minter - housing a basic NFT minting website utilizing IPFS via ThirdWeb service. Simple and user-friendly for creating and minting unique NFTs.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://camo.githubusercontent.com/e6a838e3e3fcc7322b8d2488736170805c13e6c3798ee7d8e5e25d55891bbabc/68747470733a2f2f692e6962622e636f2f4e4e57315642332f697066732d74686972647765622e6a7067',
+          link: 'https://thirdwebxipfs.netlify.app/',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
+    title: 'Portfolio of Mutahhir Khan',
+    description:
+      'Software Engineer | Two-Time Hackathon Winner | I help startups thrive with cutting-edge technology. Software Engineer | Two-Time Hackathon Winner | I help startups thrive with cutting-edge technology',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
+    linkedin: 'mutahhirkhan',
+    twitter: 'mutahhirEth',
+    mastodon: '',
+    facebook: 'mutahhiirkhan',
+    instagram: 'mutahhiirkhan',
+    youtube: 'mutahhirkhan', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'mutahhirkhan',
+    dev: '',
+    stackoverflow: '12216123/mutahhir-khan', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
+    telegram: 'mutahhirkhan',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'mutahhir199@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1lV4B4Vx2Ishx8p_lvjdO07Srs6YceNM2/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'TypeScript',
     'React.js',
+    'Next.js',
+    'Redux',
+    'Firebase',
     'Node.js',
     'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Express.js',
+    'MongoDB',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
     'Antd',
-    'Tailwind',
+    'Mui',
+    'Smart Contract',
+    'Solidity',
+    'Hardhat Foundry',
+    'TheGraph',
+    'IPFS Filecoin',
+    'DeFi Dev',
+    'Jest',
+    'Redux Toolkit',
+    'Custom Hooks',
+    'Firestore & CF',
+    'Firebase Auth',
+    'MANAGEMENT & Ops',
+    'Heroku',
+    'Railway',
+    'Surge',
+    'Dockerization',
+    'Netlify',
+    'Vite & Vercel',
+    'AWS EC2',
+    'S3',
+    'AWS TTS',
+    'Polly',
+    'G - Cloud Speech',
+    'unit-testing',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'WONDERLAMB LABS',
+      position: 'SENIOR SOFTWARE ENGINEER',
+      from: 'July 2023',
+      to: 'December 2023',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Xord',
+      position: 'SOFTWARE ENGINEER, BLOCKCHAIN',
+      from: 'November 2021',
+      to: 'March 2023',
+      companyLink: 'xord.com',
+    },
+    {
+      company: 'Al TAFSEER SOLUTIONS',
+      position: 'JUNIOR SOFTWARE ENGINEER',
+      from: 'June 2021',
+      to: 'November 2021',
+      comapnyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Solana Blokchain Developer',
+      body: 'In collaboration with Solana Foundation, Nas Academy, Wormhole, buildspace, backpack, Pyth and superteam',
+      year: 'August 2023',
+      link: 'https://drive.google.com/file/d/13sU6SIm-1aWvlo0KlbdBTNmJ9ScEQJry/view?usp=sharing',
+    },
+    {
+      name: 'Scrum Foundation Professional Certificate SFPC',
+      body: '',
+      year: 'November 2022',
+      link: 'https://www.credly.com/badges/57929a90-90d4-4196-9dcb-c3020b78935a/public_url',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'UBIT - Umaer Basha Institute of Information Technology',
+      degree: 'BS - Software Engineer',
+      from: '2019',
+      to: '2022',
     },
   ],
   publications: [
@@ -158,8 +207,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'mutahhirkhan', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +220,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'luxury',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
