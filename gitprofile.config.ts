@@ -76,7 +76,7 @@ const CONFIG = {
     title: 'Portfolio of Mutahhir Khan',
     description:
       'Full Stack Engineer | Blockchain Engineer | Hackathon Winner Twice | Performace Optimser',
-    imageURL: 'https://i.ibb.co/XJ4QMGg/63418479-removebg-preview.png',
+    imageURL: 'https://i.ibb.co/LpBHLxN/63418479.jpg',
   },
   social: {
     linkedin: 'mutahhirkhan',
