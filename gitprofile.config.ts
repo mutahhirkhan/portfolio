@@ -75,8 +75,8 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Mutahhir Khan',
     description:
-      'Software Engineer | Two-Time Hackathon Winner | I help startups thrive with cutting-edge technology. Software Engineer | Two-Time Hackathon Winner | I help startups thrive with cutting-edge technology',
-    imageURL: '',
+      'Full Stack Engineer | Blockchain Engineer | Hackathon Winner Twice | Performace Optimser',
+    imageURL: 'https://i.ibb.co/XJ4QMGg/63418479-removebg-preview.png',
   },
   social: {
     linkedin: 'mutahhirkhan',
@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1lV4B4Vx2Ishx8p_lvjdO07Srs6YceNM2/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/18be_FIyY_TI47KfWgurQ-wFZRnGzUx8t/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'TypeScript',
@@ -109,6 +109,9 @@ const CONFIG = {
     'Node.js',
     'Nest.js',
     'Express.js',
+    'Rest API',
+    'GraphQL',
+    'GitHub Actions',
     'MongoDB',
     'Git',
     'Docker',
