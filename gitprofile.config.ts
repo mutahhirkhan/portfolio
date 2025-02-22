@@ -145,6 +145,12 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'DECHAINS',
+      position: 'FullStack Web3 Engineer',
+      from: 'Jan 2025',
+      to: 'Present',
+      companyLink: 'https://www.dechains.com/',
+    },{
       company: 'WONDERLAMB LABS',
       position: 'SENIOR SOFTWARE ENGINEER',
       from: 'July 2023',
@@ -156,7 +162,7 @@ const CONFIG = {
       position: 'SOFTWARE ENGINEER, BLOCKCHAIN',
       from: 'November 2021',
       to: 'March 2023',
-      companyLink: 'xord.com',
+      companyLink: 'https://xord.com/',
     },
     {
       company: 'Al TAFSEER SOLUTIONS',
