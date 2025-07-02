@@ -98,7 +98,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Nt3bA73-D44Icc1SVisrQtZ64c4GQk2o/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1xfPwptPNMQadLLvDfelIoe958WAE-VNY/view?usp=sharing&usp=embed_facebook', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'TypeScript',
